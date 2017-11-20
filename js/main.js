@@ -33,6 +33,7 @@ $('a[href*="#"]')
       }
     }
   });
+
 $(document).ready(function(){
 
   // apply link to all divs

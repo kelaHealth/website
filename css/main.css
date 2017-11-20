@@ -148,7 +148,7 @@ a:hover, a:focus {
 /* ==========================================================================
    press.html
    ========================================================================== */
-.press{
+.news{
 	background: 	
 	linear-gradient(
 		rgba(25, 32, 48, 0.70),
@@ -160,7 +160,7 @@ a:hover, a:focus {
     -o-background-size: cover;
     background-size: cover;
     color: #fff;
-	padding: 5% 10% 10% 10%;
+	padding: 10%;
 }
 .press h3 {
 	color:#fff;
@@ -180,8 +180,6 @@ a:hover, a:focus {
 	font-weight: 400;
 	margin-bottom: 3em;
 }
-.press-slider{
-}
 .press-slide{
 	border: 3px solid #fff;
 	text-align: center;
@@ -199,10 +197,16 @@ a:hover, a:focus {
 	transition:.5s;
 	background-color: #2196F3;
 }
+.twitter {
+	padding: 10% 10%;
+}
 @media only screen and (min-width: 768px) {
 	.press-slide{
 		height: 15em;
 		margin: 0 2em;
+	}
+	.twitter{
+		padding: 5% 20%;
 	}
 }
 /* ==========================================================================
