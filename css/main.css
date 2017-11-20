@@ -243,8 +243,13 @@ a:hover, a:focus {
 .team{
 	text-align: center;
 }
+.team img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
 .team .team-col{
-	margin-top:3em;
+	margin-top:5%;
 }
 .team h2{
 	margin:0.5em 0;
@@ -269,9 +274,9 @@ a:hover, a:focus {
 	.story-box{
 		padding: 12% 25% 8% 25%;
 	}
-	.team .team-row{
+/*	.team .team-row{
 	margin: 5% 0;
-	}
+	}*/
 }
 .advisors .box{
 	padding-top:0;
